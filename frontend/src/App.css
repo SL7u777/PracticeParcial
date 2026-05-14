@@ -1,0 +1,37 @@
+/* Global component styles */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn-primary {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #c1121f;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #e63946;
+  border: 2px solid #e63946;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #e63946;
+  color: white;
+}
